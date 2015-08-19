@@ -12,18 +12,18 @@ use Swagger\Annotations as SWG;
 /**
  * @SWG\Swagger(
  *   schemes={"http"},
- *   host="localhost/yii2-rest/api/web/v1",
+ *   host="localhost/yii2-swagger/web/api",
  * )
  */
 
 
 /**
  * @SWG\Get(
- *   path="/countries",
+ *   path="/country",
  *   summary="list countries",
  *   @SWG\Response(
  *     response=200,
- *     description="A list with products"
+ *     description="A list with countries"
  *   ),
  *   @SWG\Response(
  *     response="default",
