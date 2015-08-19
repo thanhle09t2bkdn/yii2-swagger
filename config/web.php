@@ -8,7 +8,7 @@ $config = [
     'bootstrap' => ['log'],
     'modules' => [
             'api' => [
-                'class' => 'app\modules\Api',
+                'class' => 'app\modules\api\Api',
             ],
     ],
     'components' => [
