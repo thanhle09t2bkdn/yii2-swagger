@@ -7,7 +7,7 @@ use yii\rest\ActiveController;
 /**
  * Country Controller API
  *
- * @author Budi Irawan <deerawan@gmail.com>
+ * @author Thanh Le <thanhle09t2bkdn@gmail.com>
  */
 class CountryController extends ActiveController
 {
