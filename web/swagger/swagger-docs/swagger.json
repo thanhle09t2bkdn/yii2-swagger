@@ -4,7 +4,8 @@
         "title": "My First API",
         "version": "0.1"
     },
-    "host": "localhost/yii2-swagger/web/api",
+    "host": "localhost/yii2-swagger/web",
+    "basePath": "/api",
     "schemes": [
         "http"
     ],

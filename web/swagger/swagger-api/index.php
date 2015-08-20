@@ -1,8 +1,6 @@
 <?php
 
-
 use Swagger\Annotations as SWG;
-
 
 /**
  * @SWG\Info(title="My First API", version="0.1")
@@ -12,7 +10,8 @@ use Swagger\Annotations as SWG;
 /**
  * @SWG\Swagger(
  *   schemes={"http"},
- *   host="localhost/yii2-swagger/web/api",
+ *   host="localhost/yii2-swagger/web",
+ *     basePath="/api",
  * )
  */
 
